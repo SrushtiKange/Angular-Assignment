@@ -1,0 +1,52 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  h1 {
+    color:rgb(144, 4, 88);
+    font-size: 30px; /* You can adjust the font size as needed */
+    margin-right: 10px; /* You can adjust the margin as needed */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 24px; /* You can adjust the font size as needed */
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+  h3 {
+    font-size: 19px; /* You can adjust the font size as needed */
+    text-align: center;
+  }
+
+  button {
+    background-color: #cf08f1;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 9%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .required {
+    color: red;
+    margin-left: 5px; /* Adjust the spacing as needed */
+  }
+  
