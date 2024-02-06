@@ -1,0 +1,22 @@
+
+<h1>Capital Count</h1>
+<p>The default string is: {{ default}}</p>
+<p>Number of capital letters: {{ capitalCount }}</p>
+
+
+<h2>Array Addition</h2>
+  <p>Numbers Array: {{ numbersArray }}</p>
+  <p>Sum of Array Elements: {{ arrayAddition(numbersArray) }}</p>
+
+
+  <h2>Password Checker</h2>
+  <label for="password">Enter Password:</label>
+  <input type="password" id="password" [(ngModel)]="password" />
+
+  <button (click)="checkPassword()">Check Password</button>
+
+  <div *ngIf="resultMessage">
+    <p>{{ resultMessage }}</p>
+  </div>
+
+<router-outlet></router-outlet>
